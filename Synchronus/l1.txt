@@ -1,0 +1,37 @@
+Synchronous is a blocking architecture, so the execution of each operation is dependent on the completion of the one befor it
+
+function sum() {
+    console.log("2")
+}
+
+function example(){
+    console.log("1")
+    sum();
+    console.log("3");
+}
+
+example();
+
+Asynchronous is a non-blocking architecture , so the execution of one task isn't dependent on another.
+Task can run simultaneously.
+
+function sum() {
+    setTimeout(()=>{
+        console.log("2");
+    },2000);
+}
+
+function example(){
+    console.log("1");
+
+    sum();
+
+    console.log("3");
+}
+example();
+
+## Promise is a object 
+it has three Stage
+1. Pending -> Works under process
+2. Fullfiled -> Works successfullt completed
+3. Rejected -> Works failed

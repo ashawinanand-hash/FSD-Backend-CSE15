@@ -1,0 +1,29 @@
+  | Command                                            | Purpose                                 |
+
+| `git --version`                                    | Check Git version                       
+| `git config --global user.name "Atul Yadav"`       | Set your Git username                   
+| `git config --global user.email "you@example.com"` | Set your Git email                      
+| `git config --list`                                | View Git configuration                  
+| `git init`                                         | Create a new Git repository             
+| `git status`                                       | Check the status of files               
+| `git add file.txt`                                 | Stage a specific file                   
+| `git add .`                                        | Stage all changed files                 
+| `git commit -m "Initial commit"`                   | Save a snapshot of changes              
+| `git log`                                          | Show commit history                     
+| `git log --oneline`                                | Show a short commit history             
+| `git diff`                                         | Show changes before committing          
+| `git branch`                                       | List all branches                       
+| `git branch new-feature`                           | Create a new branch                     
+| `git checkout new-feature`                         | Switch to another branch                
+| `git checkout -b new-feature`                      | Create and switch to a new branch       
+| `git merge new-feature`                            | Merge a branch into the current branch  
+| `git remote -v`                                    | Show connected remote repositories      
+| `git clone <repository-url>`                       | Download a repository from GitHub       
+| `git push origin main`                             | Upload commits to GitHub                
+| `git pull origin main`                             | Download the latest changes from GitHub 
+| `git fetch`                                        | Fetch updates without merging           
+| `git reset --hard HEAD`                            | Discard all local changes               
+| `git rm file.txt`                                  | Remove a file from Git                  
+| `git mv old.txt new.txt`                           | Rename or move a file                   
+| `git stash`                                        | Temporarily save uncommitted changes    
+| `git stash pop`                                    | Restore stashed changes                 

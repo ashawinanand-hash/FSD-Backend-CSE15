@@ -1,0 +1,12 @@
+Write a Node.js program to create a basic HTTP server that handles different URL routes.
+
+The server should:
+Display "Home Page" when the user visits /.
+Display "About Page" when the user visits /about.
+Return a 404 status code and display "Page not Found" for any invslid URL.
+Provide a link to return to the Home Page on the 404 page.
+Run the server on port 3000.
+
+
+
+

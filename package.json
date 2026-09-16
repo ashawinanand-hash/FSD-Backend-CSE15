@@ -1,0 +1,26 @@
+{
+  "name": "web_dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashawinanand-hash/FSD-Backend-CSE15.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ashawinanand-hash/FSD-Backend-CSE15/issues"
+  },
+  "homepage": "https://github.com/ashawinanand-hash/FSD-Backend-CSE15#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.10.3"
+  }
+}
